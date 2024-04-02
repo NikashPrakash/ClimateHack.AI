@@ -8,7 +8,7 @@ import numpy as np
 
 class BaseEvaluator:
     def __init__(self) -> None:
-        self.setup()
+        self.setup() 
 
     def setup(self) -> None:
         """Sets up anything required for evaluation, e.g. loading a model."""
